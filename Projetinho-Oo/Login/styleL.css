@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images7.alphacoders.com/968/968907.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: Arial, sans-serif; 
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.login-form {
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b30000; 
+}
+
+
+.mensagem {
+    font-size: 14px;
+}
+
+.mensagem a {
+    color: #ff0000; 
+    text-decoration: none;
+}
+
+.mensagem a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #ded714;
+    font-weight: 700;
+    text-shadow: 2px 2px #9ca5b1;
+    font-family: 'Aranha';
+    
+}
+
+@font-face {
+    font-family: 'Aranha';
+    src: url(good\ times\ rg.otf);
+
+}

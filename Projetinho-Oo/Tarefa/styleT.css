@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(https://images.alphacoders.com/926/926926.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+    color: #fff; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #b30000;
+}
+
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista li {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: #ded714;
+    font-weight: 700;
+    text-shadow: 2px 2px #515a64;
+    font-family: 'Aranha', sans-serif; 
+}
+
+
+@font-face {
+    font-family: 'Aranha';
+    src: url(good\ times\ rg.otf);
+}
+
+
+button {
+     width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
